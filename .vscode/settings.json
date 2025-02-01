@@ -1,0 +1,36 @@
+{
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/src"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "none",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "100"
+    ],
+    "editor.formatOnSave": true,
+    "python.linting.pylintArgs": [
+        "--disable=C0111",
+        "--disable=C0103",
+        "--disable=C0303",
+        "--disable=C0301",
+        "--max-line-length=100"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        ".buildozer": true,
+        "bin": true,
+        "build": true,
+        "dist": true
+    },
+    "cmake.sourceDirectory": "C:/Programing/AIChatFlutter/windows/flutter"
+}

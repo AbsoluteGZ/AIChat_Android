@@ -1,0 +1,37 @@
+name: ai_chat_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.1
+  provider: ^6.1.2
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+  sqflite: ^2.3.2
+  fl_chart: ^0.70.0
+  sqflite_common_ffi: ^2.3.2+1
+  google_fonts: ^6.2.1
+  flutter_dotenv: ^5.1.0
+  intl: ^0.19.0
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - .env
