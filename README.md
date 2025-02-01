@@ -34,8 +34,12 @@ AIChatFlutter - это мультиплатформенное приложени
   - `services/` - Сервисы
     - `database_service.dart` - Сервис для работы с локальной базой данных
     - `analytics_service.dart` - Сервис для сбора и анализа статистики
+    - `settings_service.dart` - Сервис для работы настроек
   - `screens/` - Экраны приложения
     - `chat_screen.dart` - Основной экран чата
+    - `chart_screen.dart` - Вкладка трат на запросы
+    - `settings_screen.dart` - Вкладка настроек
+    - `stats_screen.dart` - Вкладка статистики использования
 - `android/`, `ios/`, `windows/`, `linux/` - Платформо-зависимые конфигурации
 - `assets/` - Ресурсы приложения
 - `pubspec.yaml` - Зависимости проекта
